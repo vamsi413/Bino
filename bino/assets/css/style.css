@@ -1002,13 +1002,14 @@ input::-ms-input-placeholder {
 }
 .contact_info_content h3{
     color:#ff953f;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
     font-weight: 600;
     margin-bottom: 19px;
 }
 .contact_info_content h4{
-    font-family: 'Open Sans', sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
     font-weight: 400;
+	text-transform: inherit;
 }
 .contact_info_content h4{
     margin:0;
