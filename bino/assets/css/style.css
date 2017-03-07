@@ -179,7 +179,7 @@ h4 {
     font-weight: 600;
     font-size: 1.286rem;
     line-height: 2rem;
-    margin-bottom: 1rem;
+    /*margin-bottom: 1rem;*/
     text-transform: uppercase;
 }
 /*h5 {
@@ -483,7 +483,7 @@ Extra height css
     padding-top: 5rem;
 }
 .padding-bottom-60 {
-    padding-bottom: 5rem;
+    padding-bottom: 2.7rem;
 }
 .padding-top-90 {
     padding-top: 6.429rem;
@@ -590,6 +590,15 @@ input::-ms-input-placeholder {
     font-size: 0.975rem;
     color: #fff;
 }
+
+@media (max-width: 1199px) {
+	.main_menu_bg .navbar-nav>li>a {
+		color: red;
+	}
+	
+}
+
+
 .navbar-brand {
     padding: 0px 15px;
 }
@@ -659,6 +668,10 @@ input::-ms-input-placeholder {
     margin-bottom:0px;
 }
 .head_title h2{
+    color:#808080;
+}
+
+.head_title h4{
     color:#808080;
 }
 .head_title .subtitle{
@@ -832,7 +845,7 @@ input::-ms-input-placeholder {
 }
 .main_service .single_service_img {
     position: relative;
-    height: 676px;
+    height: 635px;
 }
 .main_service .single_service_img img {
     width: 100%;
@@ -1193,6 +1206,29 @@ input::-ms-input-placeholder {
 }
 
 
+/*
+* ==========================================================================
+* Blockquote
+* ==========================================================================
+*/
+
+.glyphicon-lg{font-size:3em}
+.blockquote-box{border-right:5px solid #E6E6E6;margin-bottom:25px}
+.blockquote-box .square{width:100px;min-height:50px;margin-right:22px;text-align:center!important;background-color:#E6E6E6;padding:20px 0}
+.blockquote-box.blockquote-primary{border-color:#357EBD}
+.blockquote-box.blockquote-primary .square{background-color:#428BCA;color:#FFF}
+.blockquote-box.blockquote-success{border-color:#4CAE4C}
+.blockquote-box.blockquote-success .square{background-color:#5CB85C;color:#FFF}
+.blockquote-box.blockquote-info{border-color:#46B8DA}
+.blockquote-box.blockquote-info .square{background-color:#5BC0DE;color:#FFF}
+.blockquote-box.blockquote-warning{border-color:#EEA236}
+.blockquote-box.blockquote-warning .square{background-color:#F0AD4E;color:#FFF}
+.blockquote-box.blockquote-danger{border-color:#D43F3A}
+.blockquote-box.blockquote-danger .square{background-color:#D9534F;color:#FFF}
+
+/* Ended Team section css*/
+
+
 /*======================
 Testimonal Section
 ======================*/
@@ -1259,9 +1295,3 @@ Testimonal Section
     overflow: hidden;
 }
 
-/*Request Demo*/
-#fixedbutton {
-    position: fixed;
-    top: 150px;
-    right: 0px; 
-}
